@@ -1,0 +1,27 @@
+6) In the form, add two radio buttons with grouping them for employee type(Salaried and own business)
+
+ANSWER:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>radio form</title>
+</head>
+<body>
+    <h1>EMPLOYEE TYPE FORM</h1>
+    <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="Enter Your LastName"><br><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="Enter Your LastName"><br><br>
+        <label for="etype">Employee Type:</label><br>
+        <input type="radio" id="Salaried" name="emp_type" value="Salaried">
+        <label for="Salaried">Salaried</label>
+        <input type="radio" id="Ownbusiness" name="emp_type" value="Own Business">
+        <label for="Ownbusiness">Own Business</label><br><br>
+        <input type="submit" value="Submit">
+      </form> 
+</body>
+</html>

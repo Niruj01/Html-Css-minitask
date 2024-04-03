@@ -1,0 +1,36 @@
+11) Create an HTML page, which should contain all types of input elements.
+
+
+ANSWER:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/action_page.php">
+        <label for="username">Username:</label>
+        <input type="text" class="username" name="username"><br><br>
+        <label for="pwd">Password:</label>
+        <input type="password" class="pwd" name="pwd"><br><br>
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="etype">Employee Type:</label>
+        <input type="radio" class="Salaried" name="emp_type" value="Salaried">
+        <label for="Salaried">Salaried</label>
+        <input type="radio" class="Ownbusiness" name="emp_type" value="Own Business">
+        <label for="Ownbusiness">Own Business</label><br><br>
+        <label for="transport">what type of transport you have:</label>
+        <input type="checkbox" class="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label>
+        <input type="checkbox" class="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+      </form><br>
+      <input type="button" onclick="alert('hello world')" value="Click Me!">
+</body>
+</html>

@@ -1,0 +1,81 @@
+4)Use certain HTML elements to display the following in a HTML page.
+Programming Language
+   JavaScript
+      Angular
+      React
+      Vue.js
+   Python
+      Django Framework
+      Flask Framework
+   Java
+      Spring
+      Maven
+      Hibernate
+Database
+      MySQL
+      MongoDB
+      Cansandra
+
+
+ANSWER:
+
+HTML code:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ListTask</title>
+    <link rel="stylesheet" href="./list.css">
+</head>
+<body>
+        <ul>
+            <li class="h1">Programming Language
+                <ul>
+                    <li class="h2">JavaScript
+                        <ul>
+                            <li class="h3">Angular</li><br>
+                            <li class="h3">React</li><br>
+                            <li class="h3">Vue.js</li><br>
+                        </ul>
+                    </li><br>
+                    <li class="h2">Python
+                        <ul>
+                            <li class="h3">Django Framework</li><br>
+                            <li class="h3">Flask Framework</li><br>
+                        </ul>
+                    </li><br>
+                    <li class="h2">Java
+                        <ul>
+                            <li class="h3">Spring</li><br>
+                            <li class="h3">Maven</li><br>
+                            <li class="h3">Hibernate</li><br>
+                        </ul>
+                    </li><br>
+                </ul>
+            </li><br>
+            <li class="h1">Database
+                <ul>
+                    <li class="h2">MySQL</li><br>
+                    <li class="h2">MangoDB</li><br>
+                    <li class="h2">Cansandra</li><br>
+                </ul>
+            </li>
+        </ul>
+</body>
+</html>
+
+CSS code:
+
+.h1{
+    list-style-type: circle;
+}
+
+.h2{
+    list-style-type: disc;
+}
+
+.h3{
+    list-style-type: lower-latin;
+}
